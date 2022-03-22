@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  background-color: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.themeInfo{
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.themeInfo button {
+  padding: .4rem 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+body {
+  background-color: royalblue;
+}

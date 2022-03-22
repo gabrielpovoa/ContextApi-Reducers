@@ -1,0 +1,59 @@
+.areaLogin {
+    background-color: #FFFFFF10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    max-width: 990px;
+    margin: 25px auto;
+}
+
+.area-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    padding: .3rem 1rem;
+    background-color: #F3F3F3;
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+.btn {
+    background-color: #333;
+    color: #FFF;
+    padding: .3rem 1rem;
+    border-radius: .4rem;
+}
+
+.showData {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #1c1c339c;
+    padding: 2rem 3%;
+    color: #FFF;
+}
+
+.showData .regis,
+.showData .ageArea {
+    border: .1rem solid #F3F3F3;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.05);
+    padding: 2rem 3rem;
+    margin-top: 2rem;
+}
+
+.showdataArea {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.noneAccess {
+    font-weight: 900;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1.4rem;
+    margin: 2rem 0;
+}
